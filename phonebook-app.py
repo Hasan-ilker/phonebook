@@ -1,7 +1,7 @@
 # To show this app works fine, we need to create a RDS instance at first.
 
 # Import Flask modules
-# As we know, we are gonna import necessary libraries. We've also imported 
+# As we know, we are gonna import necessary libraries. We've also imported.
 from flask import Flask, request, render_template
 from flaskext.mysql import MySQL
 import os
@@ -15,7 +15,7 @@ app = Flask(__name__)
 # we need to configure our database. I've explained this part before. Lets have a look at these configuration. 
 app.config['MYSQL_DATABASE_HOST'] = os.getenv('MYSQL_DATABASE_HOST')
 app.config['MYSQL_DATABASE_USER'] = 'admin'
-app.config['MYSQL_DATABASE_PASSWORD'] = 'hsn1'
+app.config['MYSQL_DATABASE_PASSWORD'] = 'Oliver_1'
 app.config['MYSQL_DATABASE_DB'] = 'phonebook'
 app.config['MYSQL_DATABASE_PORT'] = 3306
 

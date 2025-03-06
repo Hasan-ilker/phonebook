@@ -104,7 +104,7 @@ thousand                         Warning -> 'Invalid input: Phone number should 
 
   - For RDS Database Instance;
   
-    - Instance type can be configured as `db.t2.micro`
+    - Instance type can be configured as `db.t3.micro`
 
     - Database engine can be `MySQL` with version of `8.0.19`.
 
